@@ -1,0 +1,10 @@
+{
+  "network": "n42",
+  "chainId": 1142,
+  "token": "0x38A70c040CA5F5439ad52d0e821063b0EC0B52b6",
+  "factory": "0x54B8d8E2455946f2A5B8982283f2359812e815ce",
+  "sampleMarket": "0x6B2031b6519268e623CA05F3683708Ed6C6F89df",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "timestamp": "2026-01-19T04:36:00.000Z",
+  "note": "Sample market created but not initialized due to insufficient PRED tokens"
+}

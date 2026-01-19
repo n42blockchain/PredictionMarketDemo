@@ -1,0 +1,38 @@
+{
+  "name": "predictionmarketdemo",
+  "version": "1.0.0",
+  "description": "A decentralized prediction market platform built on N42 blockchain, inspired by Polymarket",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network n42",
+    "deploy:local": "hardhat run scripts/deploy.js --network hardhat",
+    "create-market": "hardhat run scripts/createMarket.js --network n42",
+    "query-markets": "hardhat run scripts/queryMarkets.js --network n42",
+    "init-market": "hardhat run scripts/initializeMarket.js --network n42",
+    "test-trade": "hardhat run scripts/testTrade.js --network n42",
+    "console": "hardhat console --network n42"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n42blockchain/PredictionMarketDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/n42blockchain/PredictionMarketDemo/issues"
+  },
+  "homepage": "https://github.com/n42blockchain/PredictionMarketDemo#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@typechain/hardhat": "^9.1.0",
+    "dotenv": "^17.2.3",
+    "hardhat": "^2.28.3",
+    "typechain": "^8.3.2"
+  }
+}
